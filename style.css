@@ -1,0 +1,66 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+  }
+  
+  header {
+    background-color: #1b191900;
+    color: rgb(32, 180, 52);
+    text-align: center;
+    padding: 10px;
+  }
+  
+  main {
+    display: flex;
+    padding: 20px;
+  }
+  
+  #movie-details {
+    flex: 2;
+    padding: 20px;
+  }
+  
+  #movie-details img {
+    max-width: 500px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+  }
+  
+  #films-container {
+    flex: 2;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    max-height: 500px;
+    overflow-y: scroll;
+  }
+  
+  ul#films {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li.film {
+    cursor: pointer;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  li.film:hover {
+    background-color: #f1f1f199;
+  }
+  
+  button#buy-ticket {
+    background-color: #4646db;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  button#buy-ticket:hover {
+    background-color: #0f0bf0;
+  }
+  
